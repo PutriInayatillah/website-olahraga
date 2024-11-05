@@ -1,0 +1,74 @@
+/* Custom styling for the landing page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #087308 !important; /* Menggunakan !important untuk menimpa gaya Bootstrap */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: white !important; /* Pastikan teks berwarna putih */
+    font-weight: 700; /* Menjadikan teks lebih tebal */
+}
+
+header h2 {
+    font-size: 1.5rem; /* Ukuran lebih kecil dari h1 */
+    color: white !important;
+    font-weight: 300; /* Menjadikan teks lebih tipis */
+}
+
+main h2 {
+    color: #0e4804 !important; /* Mengganti warna biru menjadi hijau */
+}
+
+main article h3 {
+    color: #000000 !important;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #419b28 !important;
+    color: white !important;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white !important; /* Warna teks link pada navbar */
+}
+
+.logo {
+    width: 90px; /* Sesuaikan lebar logo sesuai keinginan */
+    height: auto; /* Menjaga rasio aspek */
+    position: absolute;
+    top: 20px; /* Atur sesuai kebutuhan untuk menyejajarkan dengan teks */
+    left: 20px; /* Atur sesuai kebutuhan untuk menjaga posisi kiri */
+}
+
+header .container {
+    position: relative; /* Supaya logo tetap di dalam konteks container header */
+    padding-top: 20px; /* Menambahkan padding agar teks tidak terpotong oleh logo */
+}
+
+.highlight {
+    font-size: 2.5rem;
+    color: white !important;
+    font-weight: 700;
+}
+
+.light-text {
+    font-size: 1.5rem;
+    color: white !important;
+    font-weight: 300;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
